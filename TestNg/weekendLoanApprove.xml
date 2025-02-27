@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weekend Loan Approve">
+    <listeners>
+        <listener class-name="main.Base.ChainTestListener"/>
+    </listeners>
+    <test name="change status to esigned due">
+        <classes>
+            <class name="test.WeekendLoanTest.GuarantorPendingToEAgreementSignedDueTest"/>
+        </classes>
+    </test>
+    <test name="change status to approve">
+        <classes>
+            <class name="test.WeekendLoanTest.ApproveWeekendLoanAdminTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,77 @@
+/* Default Light Theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1e1e2e;
+    color: #ffffff;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ffcc00;
+    color: #1e1e2e;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+    background-color: #ffaa00;
+}
+
+/* Collapsible Section Styling */
+.collapsible {
+    background-color: #44475a;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.collapsible:hover {
+    background-color: #575d77;
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #282a36;
+    border-left: 4px solid #ffcc00;
+}
+
+/* Scroll to Top Button */
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffcc00;
+    color: #1e1e2e;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+    transition: background-color 0.3s;
+}
+
+.scroll-top:hover {
+    background-color: #ffaa00;
+}
